@@ -1,0 +1,236 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body#background {
+    background: #f5f5f5;
+}
+
+.nav{
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #9E9D99;
+    font-size: 1.1em;
+}
+
+
+#logo{
+    background: #4BA9A4;
+    padding: 1.5em;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+#logo a {
+    color: white;
+}
+.nav a{
+    color: #9E9D99;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    color: rgb(17, 212, 226);
+}
+
+#header{
+    background: #FAFAFA;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.nav, #main-content{
+    margin: 0 auto;
+    width: 960px;
+}
+
+#main-content{
+    
+    margin-bottom: 50px; 
+}
+
+.nav div span{
+    color: #aaa;
+    margin-left: 20px;
+}
+
+#content-on-me{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 40px;
+    margin-top: 40px;
+    padding-bottom: 200px;
+}
+
+#about{
+    background-color: #FFF;       
+}
+
+#about > a {
+    text-decoration: none;
+}
+
+#about > span a {
+    color: #4BA9A4;
+    text-decoration: none;
+}
+
+#social-media{
+    background-color: #FAFAFA; 
+    height: 200px;
+}
+
+#about, #social-media{
+    font-size: 1.2em;
+    line-height: 150%;
+    padding: 20px;
+    color: #919898;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+#social-media:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+#social-media-icons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 2px;
+    padding: 20px;
+}
+
+#about > img {
+    float: left;
+    padding-right: 20px;
+}
+
+hr{
+    height: 3px;
+    background: #aaa;
+}
+
+#footer{
+    display: grid;
+    grid-auto-rows: minmax(50px, auto);
+    background: #4F4F4F;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    color: white;
+    border-top: 9px solid #4BA9A4;
+}
+
+#go-to-portfolio{   
+    padding: 10px;
+    color: grey;
+    text-align: center;
+    border: 1px solid #4BA9A4;
+    border-radius: 3px;
+}
+
+#go-to-portfolio:hover{
+    background: #4BA9A4;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 14px 28px rgba(19, 56, 54, 0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.active a{
+    color: rgb(17, 212, 226);
+}
+
+/* Potfolio CSS Code: My Work Section */
+
+#my-work{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    grid-auto-rows: minmax(300, auto);
+    grid-gap: 2em;
+}
+
+.show{
+    background: blue;
+    display: grid;
+    height: 200px;
+    justify-content: center;
+    align-items:end;
+    color: white;
+    background-color: #353535;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: top left;
+    transition: all ease-in-out 300ms;
+}
+
+.show:hover{
+    background-blend-mode: initial;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    cursor: pointer;
+}
+
+.case1{
+    
+    background-image: url(https://picsum.photos/600/400);
+}
+
+.case2{
+    
+    background-image: url(https://picsum.photos/700/400);
+}
+
+.case3{
+    
+    background-image: url(https://picsum.photos/800/400);
+}
+
+.case4{
+    
+    background-image: url(https://picsum.photos/400/400);
+}
+
+/* Contact Form CSS */
+input{
+    width: 100%;
+    border: 1px solid rgba(105, 104, 104, 0.25);
+    height: 2.5em;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+textarea:focus, input:focus{   
+    outline: none;
+    border: 1px solid #4BA9A4;
+}
+textarea{
+    width: 100%;
+    padding: 5px;
+    border: 1px solid rgba(105, 104, 104, 0.25);
+    margin-bottom: 20px;
+}
+
+input[type=button]{
+    width: 150px;
+    background: #4BA9A4;
+    color: white;
+    border: 1px solid #4BA9A4;
+    font-size: 18px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+input[type=button]:hover{
+    
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    cursor: pointer;
+}
+
+
+
