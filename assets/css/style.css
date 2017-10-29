@@ -19,7 +19,7 @@ body {
 
 
 #logo{
-    background: #4BA9A4;
+    background: #4AAAA5;
     padding: 1.5em;
     font-size: 25px;
     font-weight: bold;
@@ -74,7 +74,7 @@ body {
 }
 
 #about > span a {
-    color: #4BA9A4;
+    color: #4AAAA5;
     text-decoration: none;
 }
 
@@ -125,19 +125,19 @@ hr{
     right: 0;
     left: 0;
     color: white;
-    border-top: 9px solid #4BA9A4;
+    border-top: 9px solid #4AAAA5;
 }
 
 #go-to-portfolio{   
     padding: 10px;
     color: grey;
     text-align: center;
-    border: 1px solid #4BA9A4;
+    border: 1px solid #4AAAA5;
     border-radius: 3px;
 }
 
 #go-to-portfolio:hover{
-    background: #4BA9A4;
+    background: #4AAAA5;
     color: white;
     cursor: pointer;
     box-shadow: 0 14px 28px rgba(19, 56, 54, 0.25), 0 10px 10px rgba(0,0,0,0.22);
@@ -209,7 +209,7 @@ input{
 
 textarea:focus, input:focus{   
     outline: none;
-    border: 1px solid #4BA9A4;
+    border: 1px solid #4AAAA5;
 }
 textarea{
     width: 100%;
@@ -220,9 +220,9 @@ textarea{
 
 input[type=button]{
     width: 150px;
-    background: #4BA9A4;
+    background: #4AAAA5;
     color: white;
-    border: 1px solid #4BA9A4;
+    border: 1px solid #4AAAA5;
     font-size: 18px;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
@@ -236,7 +236,7 @@ input[type=button]:hover{
 
 h1{
     font-family: 'Georgia', Times, Times New Roman, serif;
-    color: #4BA9A4;
+    color: #4AAAA5;
 }
 
 
