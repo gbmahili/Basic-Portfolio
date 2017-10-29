@@ -116,7 +116,7 @@ hr{
 #footer{
     display: grid;
     grid-auto-rows: minmax(50px, auto);
-    background: #4F4F4F;
+    background: #666666;
     align-items: center;
     justify-content: center;
     padding: 20px;
@@ -177,24 +177,19 @@ hr{
     cursor: pointer;
 }
 
-.case1{
-    
-    
+.case1{  
     background-image: url("../images/case1-railroad.jpg");
 }
 
 .case2{
-    
     background-image: url("../images/case2-skyscrapper.jpg");
 }
 
 .case3{
-    
     background-image: url("../images/case3-manhattan.jpg");
 }
 
 .case4{
-    
     background-image: url("../images/case4-ocean.jpg");
 }
 
@@ -235,9 +230,11 @@ input[type=button]:hover{
 }
 
 h1{
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    color: #4AAAA5;
+    font-size: 30px;
 }
 
-
-
+h1, h2{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4AAAA5;
+    font-weight: bold;
+}
